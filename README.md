@@ -66,3 +66,35 @@ To predict a medicine from an image:
 Outputs:
 - Predicted medicine name
 - Associated purpose from Medicine_Details.csv
+
+FOLDER STRUCTURE
+
+AI_PROJECT_ROOT/
+│
+├── ai/
+├── data_to_test/
+├── dataset/
+│   ├── Testing/
+│   │   ├── testing_words/
+│   │   └── testing_labels.csv
+│   ├── Training/
+│   │   ├── training_words/
+│   │   └── training_labels.csv
+│   ├── Validation/
+│   │   ├── validation_words/
+│   │   └── validation_labels.csv
+│   └── Medicine_Details.csv
+│
+├── gui_app.py
+├── main.py
+├── model.py
+├── predict.py
+├── train_model.py
+├── utils.py
+├── label_encoder.pkl
+├── ocr_cnn_model.pth
+├── ocr_cnn_model_best.pth
+├── training_loss_plot.png
+├── confusion_matrix.png
+└── README.md
+
